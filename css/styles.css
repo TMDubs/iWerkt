@@ -1,0 +1,330 @@
+/* --------------------------------------------------------------------------------------
+iWERKT - CSS Style Sheet
+version 1.1
+date: June 13, 2016
+author: TMW 
+
+colors:
+Blue #1399C9
+LightBlue #00C0EF
+DarkBlue #114361
+Green #4CC0BD
+LightGreen #80CDC9
+Coral #F56954
+----------------------------------------------------------------------------------------*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Frutiger LT Std", sans-serif;
+  font-weight: 100;
+  -webkit-font-smoothing: antialiased;
+  background-color: #262e36;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+p {    
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+.header {
+  max-width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  width: 100%;
+  top: 0;
+  position: absolute;
+  background: rgb(0, 224, 213); /* Fallback for older browsers without RGBA-support */
+  background: rgba(0, 224, 213, 0.4);
+}
+
+.logoBlock {
+  width: 600px;
+  height: 100%;
+  position: absolute;
+  margin-left: 145px;
+}
+
+.logoContainer {
+  max-width: 500px;
+  height: 100%;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.logo {
+  color: #fff;
+  margin-top: 120px;
+  font-size: 235px;
+  letter-spacing: 8px;
+}
+
+.logoBody {
+  max-width: 793px;
+  font-size: 26px;
+  color: #fff;
+  margin-top: -50px;
+  margin-left: 16px;
+  letter-spacing: 2.5px !important;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #fff;
+}
+
+a:hover {
+	color: #1399C9;
+	-moz-transition-duration: .33s;
+  -moz-transition-property: background, color, opacity;
+  -ms-transition-duration: .33s;
+  -ms-transition-property: background, color, opacity;
+  -webkit-transition-duration: .33s;
+  -webkit-transition-property: background, color, opacity;
+  transition-duration: .33s;
+  transition-property: background, color, opacity;
+}
+
+.nav {
+  float: left;
+  margin-left: -10px;
+}
+
+.nav li {
+  list-style: none;
+  font-size: 18px;
+  letter-spacing: 2.5px;
+  margin-top: 25px;
+}
+
+.cycle-slideshow, img.slide {
+  background-size: cover;
+  position: relative;
+  height: 100%;
+  width:100%;
+  left: 0;
+  z-index:-9999;
+}
+
+.titleText {
+  font-size: 80px;
+  line-height: 1;
+}
+
+.bodyText {
+  font-family: 'Frutiger Std LT';
+  letter-spacing: -0.2px;
+}
+
+.noPaperSection {
+  overflow: hidden;
+  background-color: #F56954;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  color: #fefefe;
+  height: 1300px;
+}
+
+.noPaperSectionContainer {
+  max-width: 1200px;
+  height: 100%;
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.titleImg01 {
+  background: url('titleImg01.png') no-repeat;
+  background-size: contain;
+  background-position: center bottom;
+  width: 631px;
+  height: 1084px;
+  position: absolute;
+  bottom: 0;
+  margin: 0 100px 0 0;
+  right: 0;
+}
+
+.titleImg02 {
+  background: url("titleImg02.png") no-repeat;
+  background-position: center bottom;
+  background-size: contain;
+  width: 631px;
+  height: 746px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -450px;
+}
+
+#noPaperSectionTitle {
+  opacity: 1;
+  margin-top: 110px;
+  text-align: center; 
+}
+
+.noPaperSectionBody {
+  max-width: 793px;
+  font-size: 26px;
+  line-height: 1.5;
+  color: #ffffff;
+  text-align: center;
+  margin: auto;
+  margin-top: 36px;
+  opacity: 0.8;
+}
+
+.keepTrackSection {
+  overflow: hidden;
+  background-color: #4CC0BD;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 1150px;
+}
+
+.keepTrackSectionContainer {
+  max-width: 1200px;
+  height: 100%;
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+}
+
+#keepTrackSectionTitle {
+  opacity: 1;
+  margin-top: 110px;
+  text-align: center; 
+  color: #fff;
+}
+
+.keepTrackSectionBody {
+  max-width: 793px;
+  font-size: 26px;
+  line-height: 1.5;
+  color: #fff;
+  text-align: center;
+  margin: auto;
+  margin-top: 34px;
+}
+
+.getPaidSection {
+  overflow: hidden;
+  background-color: #1399C9;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 1024px;
+  color: #fefefe;
+}
+
+.getPaidSectionContainer {
+  height: 100%;
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.getPaidSectionBlock {
+  text-align: left;
+  width: 450px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  margin: 110px 0 0 0;
+}
+
+#getPaidSectionTitle {
+  opacity: 1;
+  font-size: 80px;
+  color: #fff;
+}
+
+.getPaidSectionBody {
+  max-width: 793px;
+  opacity: 0.8;
+  font-size: 26px;
+  line-height: 1.2;
+  color: #ffffff;
+  margin-top: 50px;
+}
+
+.footer {
+  overflow: hidden;
+  background-color: #00c0ce;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 700px;
+  position: relative;
+}
+
+.footerContainer {
+  width: 90%;
+  margin: 0 5%;
+}
+
+#footerTitle {
+  font-size: 100px;
+  color: #fff;
+  text-align: center;
+  width: 90%;
+  margin: 110px auto 0 auto;
+}
+
+.footerBody {
+  max-width: 793px;
+  opacity: 0.8;
+  font-size: 26px;
+  line-height: 1.2;
+  color: #ffffff;
+  margin-left: 495px;
+}
+
+.getTheAppLinksLarge {
+  max-width: 795px;
+  margin: 100px auto 0 auto;
+}
+
+.getTheAppIconsLarge {
+  width: 220px;
+  margin: 100px auto 0 auto;
+  text-align: center;
+  display: block;
+}
+
+.iosAppIconLarge {
+  background: url("appStore.png") no-repeat;
+  background-size: contain;
+  width: 220px;
+  height: 80px;
+  display: block;
+}
+
+.androidAppIconLarge {
+  background: url("gPlay.png") no-repeat;
+  background-size: contain;
+  width: 220px;
+  height: 80px;
+  display: block;
+  margin-top: 30px;
+}
+
+.nordikLabs {
+  position: absolute;
+  width: 90%;
+  padding: 0;
+  left: 5%;
+  bottom: 20px;
+  text-align: center;
+}
