@@ -3,15 +3,18 @@ iWERKT - CSS Style Sheet
 version 1.1
 date: June 13, 2016
 author: TMW 
-
-colors:
+----------------------------------------------------------------------------------------
+-----------------------
+/* Background-colors:
 Blue #1399C9
 LightBlue #00C0EF
 DarkBlue #114361
 Green #4CC0BD
 LightGreen #80CDC9
-Coral #F56954
-----------------------------------------------------------------------------------------*/
+Coral #F56954 
+-----------------------
+-----------------------*/
+
 body {
   margin: 0;
   padding: 0;
@@ -140,7 +143,7 @@ span {
   margin: 0;
   padding: 0;
   color: #fefefe;
-  height: 1300px;
+  height: 1400px;
 }
 
 .noPaperSectionContainer {
@@ -152,25 +155,26 @@ span {
 }
 
 .titleImg01 {
-  background: url('titleImg01.png') no-repeat;
+  background: url('titleImg01login.png') no-repeat;
   background-size: contain;
   background-position: center bottom;
   width: 631px;
   height: 1084px;
   position: absolute;
   bottom: 0;
-  margin: 0 100px 0 0;
+  margin: 0 100px 90px 0;
   right: 0;
 }
 
 .titleImg02 {
-  background: url("titleImg02.png") no-repeat;
+  background: url('titleImg02login.png') no-repeat;
   background-position: center bottom;
   background-size: contain;
   width: 631px;
   height: 746px;
   position: absolute;
   bottom: 0;
+  margin-bottom: 80px;
   left: 50%;
   margin-left: -450px;
 }
@@ -232,7 +236,7 @@ span {
   width: 100%;
   margin: 0;
   padding: 0;
-  height: 1024px;
+  height: 1085px;
   color: #fefefe;
 }
 
@@ -242,6 +246,15 @@ span {
   width: 90%;
   margin: 0 auto;
   position: relative;
+}
+
+.getPaidImg01 {
+  background: url('getPaidImg01.png') no-repeat;
+  background-size: contain;
+  width: 631px;
+  height: 1084px;
+  position: absolute;
+  float: left;
 }
 
 .getPaidSectionBlock {
@@ -297,7 +310,7 @@ span {
   font-size: 26px;
   line-height: 1.2;
   color: #ffffff;
-  margin-left: 495px;
+  margin-left: 525px;
 }
 
 .getTheAppLinksLarge {
@@ -329,6 +342,23 @@ span {
   margin-top: 30px;
 }
 
+.socialLinks {
+  position: relative;
+  float: right;
+  margin: 85px 30px 22px 0;
+}
+
+.socialLinks ul li {
+  font-size: 22px;
+  padding-left: 12px;
+  display: inline;
+  list-style: none;
+}
+
+.socialLinks a {
+  border-top: none !important;
+}
+
 .nordikLabs {
   position: absolute;
   width: 90%;
@@ -337,3 +367,8 @@ span {
   bottom: 20px;
   text-align: center;
 }
+
+.nordikLabs a {
+  border-top: none !important;
+}
+
