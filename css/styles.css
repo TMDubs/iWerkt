@@ -86,8 +86,6 @@ a {
 
 a:hover {
   color: #F56954;
-  border-top: 2.7px solid #F56954;
-  padding-top: 10px;
   -moz-transition-duration: .33s;
   -moz-transition-property: background, color, opacity;
   -ms-transition-duration: .33s;
@@ -155,7 +153,7 @@ span {
 }
 
 .titleImg01 {
-  background: url('homeViewHorizontale.png') no-repeat;
+  background: url('../img/homeViewHorizontale.png') no-repeat;
   background-size: contain;
   background-position: center bottom;
   width: 631px;
@@ -167,7 +165,7 @@ span {
 }
 
 .titleImg02 {
-  background: url('calendarViewBlackPhone.png') no-repeat;
+  background: url('../img/calendarViewBlackPhone.png') no-repeat;
   background-position: center bottom;
   background-size: contain;
   width: 631px;
@@ -248,7 +246,7 @@ span {
 }
 
 #keepTrackImg01 {
-  background: url('homeViewHorizontalePullOut.png') no-repeat;
+  background: url('../img/homeViewHorizontalePullOut.png') no-repeat;
   background-size: contain;
   margin-left: 50px;
   width: 304px;
@@ -260,7 +258,7 @@ span {
 }
 
 #keepTrackImg02 {
-  background: url('voucherView.png') no-repeat;
+  background: url('../img/voucherView.png') no-repeat;
   background-size: contain;
   position: relative;
   width: 304px;
@@ -271,7 +269,7 @@ span {
 }
 
 #keepTrackImg03 {
-  background: url('timePickerView.png') no-repeat;
+  background: url('../img/timePickerView.png') no-repeat;
   background-size: contain;
   position: relative;
   width: 304px;
@@ -300,7 +298,7 @@ span {
 }
 
 .getPaidImg01 {
-  background: url('loginView.png') no-repeat;
+  background: url('../img/loginView.png') no-repeat;
   background-size: contain;
   width: 631px;
   height: 1084px;
@@ -378,7 +376,7 @@ span {
 }
 
 .iosAppIconLarge {
-  background: url("appStore.png") no-repeat;
+  background: url('../img/appStore.png') no-repeat;
   background-size: contain;
   width: 220px;
   height: 80px;
@@ -386,7 +384,7 @@ span {
 }
 
 .androidAppIconLarge {
-  background: url("gPlay.png") no-repeat;
+  background: url('../img/gPlay.png') no-repeat;
   background-size: contain;
   width: 220px;
   height: 80px;
