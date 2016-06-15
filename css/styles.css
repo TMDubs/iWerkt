@@ -85,10 +85,10 @@ a {
 }
 
 a:hover {
-	color: #F56954;
+  color: #F56954;
   border-top: 2.7px solid #F56954;
   padding-top: 10px;
-	-moz-transition-duration: .33s;
+  -moz-transition-duration: .33s;
   -moz-transition-property: background, color, opacity;
   -ms-transition-duration: .33s;
   -ms-transition-property: background, color, opacity;
@@ -167,7 +167,7 @@ span {
 }
 
 .titleImg02 {
-  background: url('homeViewHorizontalePullOut.png') no-repeat;
+  background: url('calendarViewBlackPhone.png') no-repeat;
   background-position: center bottom;
   background-size: contain;
   width: 631px;
@@ -213,20 +213,6 @@ span {
   position: relative;
 }
 
-.voucherViewImg {
-  background: url('voucherView.png') no-repeat;
-  background-size: contain;
-  background-position: left bottom;
-  width: 324px;
-  height: 576px;
-  position: absolute;
-  bottom: 0;
-  margin: 0 100px 200px 0;
-  moz-box-shadow: 5px 5px 8px 43px rgba(0,0,0,0.4);
-  -webkit-box-shadow: 5px 8px 43px 5px rgba(0,0,0,0.4);
-  box-shadow: 5px 8px 43px 5px rgba(0,0,0,0.4);
-}
-
 #keepTrackSectionTitle {
   opacity: 1;
   margin-top: 110px;
@@ -235,13 +221,64 @@ span {
 }
 
 .keepTrackSectionBody {
-  max-width: 793px;
+  max-width: 772px;
   font-size: 26px;
   line-height: 1.5;
   color: #fff;
   text-align: center;
   margin: auto;
   margin-top: 34px;
+}
+
+.keepTrackImgContainer {
+  height: 700px;
+  max-width: 100%;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background-color: #4CC0BD;
+  margin-top: 15px
+}
+
+.keepTrackImgs {
+  display: inline-block !important;
+  margin-left: 50px;
+  float: left;
+  margin-top: 75px;
+}
+
+#keepTrackImg01 {
+  background: url('homeViewHorizontalePullOut.png') no-repeat;
+  background-size: contain;
+  margin-left: 50px;
+  width: 304px;
+  height: 540px;
+  position: relative;
+  moz-box-shadow: 5px 5px 8px 43px rgba(0,0,0,0.4);
+  -webkit-box-shadow: 5px 8px 43px 5px rgba(0,0,0,0.4);
+  box-shadow: 5px 8px 43px 5px rgba(0,0,0,0.4);
+}
+
+#keepTrackImg02 {
+  background: url('voucherView.png') no-repeat;
+  background-size: contain;
+  position: relative;
+  width: 304px;
+  height: 540px;
+  moz-box-shadow: 5px 5px 8px 43px rgba(0,0,0,0.4);
+  -webkit-box-shadow: 5px 8px 43px 5px rgba(0,0,0,0.4);
+  box-shadow: 5px 8px 43px 5px rgba(0,0,0,0.4);
+}
+
+#keepTrackImg03 {
+  background: url('timePickerView.png') no-repeat;
+  background-size: contain;
+  position: relative;
+  width: 304px;
+  height: 540px;
+  moz-box-shadow: 5px 5px 8px 43px rgba(0,0,0,0.4);
+  -webkit-box-shadow: 5px 8px 43px 5px rgba(0,0,0,0.4);
+  box-shadow: 5px 8px 43px 5px rgba(0,0,0,0.4);
 }
 
 .getPaidSection {
@@ -263,7 +300,7 @@ span {
 }
 
 .getPaidImg01 {
-  background: url('getPaidImg01.png') no-repeat;
+  background: url('loginView.png') no-repeat;
   background-size: contain;
   width: 631px;
   height: 1084px;
@@ -273,7 +310,7 @@ span {
 
 .getPaidSectionBlock {
   text-align: left;
-  width: 450px;
+  width: 456px;
   height: 100%;
   position: absolute;
   right: 0;
@@ -364,7 +401,6 @@ span {
   position: relative;
   overflow: hidden;
   background-color: #F56954;
-  border-top: 0.5px solid #fff;
 }
 
 .leftSide {
@@ -502,12 +538,6 @@ span {
   margin-top: 36px;
   opacity: 0.8;
 }
-
-
-
-
-
-
 
 
 
