@@ -6,8 +6,8 @@
 
       <title>iWERKT1.1</title>
 
-      <link rel='stylesheet' type='text/css' href='css/styles.css'>
-      <link rel="stylesheet" href='css/font-awesome-4.6.3/css/font-awesome.min.css'>
+      <link rel='stylesheet' type='text/css' href='/css/styles.css'>
+      <link rel="stylesheet" href='/css/font-awesome-4.6.3/css/font-awesome.min.css'>
       <script src='http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js'></script>
       <script src='http://malsup.github.com/jquery.cycle2.js'></script>
       <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js'></script>
@@ -22,7 +22,7 @@
       </div>
       <div class='logoBlock'>
         <div class='logoContainer'>
-          <div class='logo'>iWERKT</div>
+          <div class='logo'><a href='https://itunes.apple.com/us/genre/ios/id36?mt=8'>iWERKT</a></div>
           <p class='logoBody' id='bodyText'>Digital Vouchers for Models</p>
         </div>
       </div>
@@ -64,7 +64,7 @@
     </div>
     <div class='getAppSection'>
       <div class='getAppSection'>
-        <div class='titleText' id='getAppSectionTitle'>Get the app.</div>
+        <div class='titleText' id='getAppSectionTitle'><a href='https://itunes.apple.com/us/genre/ios/id36?mt=8'>Get the app.</a></div>
         <p class='getAppSectionBody' id='bodyText'>(it's free)</p>
           <div class='getAppLinksLarge'>
             <div class='getAppIconsLarge'>
@@ -84,8 +84,8 @@
         <div class='copyright'><a href='#'>&copy NordikLabs</a></div>
       </div>   
       <div class='rightSide'>       
-        <span class='footerLink'><a href='mailto:info@iwerkt.com'>Contact</a></span>
-        <span class='footerLink'><a href='file:///Users/ToddandBess/TMDubs/iWerkt1.1/privacy/privacy.html'>Privacy</a></span>
+        <span class='footerLink' id='obf' style="unicode-bidi:bidi-override;direction:rtl;"></span>
+        <span class='footerLink'><a href='/privacy.html'>Privacy</a></span>
         <span class='footerLink'><a href='#'><i class='fa fa-facebook'></i></a></span>
         <span class='footerLink'><a href='#'><i class='fa fa-twitter'></i></a></span>
       </div>
@@ -94,8 +94,11 @@
     <script type='text/javascript'>
 
       $('.cycle-slideshow').backstretch(
-        ['img/girlHorizontale.jpg','img/5thAve.jpg','img/birdsNest.jpg','img/notebookPhone.jpg','img/flowerGirl2.jpg','img/phoneOnTable.jpg','img/tightRoller.jpg'], {duration: 3000, fade: 750}
+        ['/img/girlHorizontale.jpg','/img/5thAve.jpg','/img/birdsNest.jpg','/img/notebookPhone.jpg','/img/flowerGirl2.jpg','/img/phoneOnTable.jpg','/img/tightRoller.jpg'], {duration: 3000, fade: 1500}
       );
+
+      document.getElementById("obf").innerHTML="<n uers=\"znvygb:vasb@vjrexg.pbz?fhowrpg=vJrexg - Vasbezngvba Erdhrfg\" gnetrg=\"_oynax\">gpngabP</n>".replace(/[a-zA-Z]/g,function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});document.body.appendChild(eo);
+
     </script>
 
   </body>

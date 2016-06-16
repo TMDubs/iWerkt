@@ -104,7 +104,7 @@ p {
 
 .logoBody {
   max-width: 793px;
-  font-size: 26px;
+  font-size: 28px;
   color: #fff;
   margin-top: -50px;
   margin-left: 16px;
@@ -148,14 +148,14 @@ span {
 
 .nav li {
   list-style: none;
-  font-size: 20px;
+  font-size: 25px;
   letter-spacing: 3px;
   margin-top: 25px;
   opacity: 0;
-  -moz-animation: fadein 1.5s ease-in 3.5s forwards; /* Firefox */
-  -webkit-animation: fadein 1.5s ease-in 3.5s forwards; /* Safari and Chrome */
-  -o-animation: fadein 1.5s ease-in 3.5s forwards; /* Opera */
-  animation: fadein 1.5s ease-in 3.5s forwards;
+  -moz-animation: fadein 1s ease-in 3s forwards; /* Firefox */
+  -webkit-animation: fadein 1.5s ease-in 3s forwards; /* Safari and Chrome */
+  -o-animation: fadein 1s ease-in 3s forwards; /* Opera */
+  animation: fadein 1s ease-in 3s forwards;
 }
 
 .cycle-slideshow, img.slide {
@@ -198,7 +198,7 @@ span {
 }
 
 .titleImg01 {
-  background: url('../img/homeViewHorizontale.png') no-repeat;
+  background: url('/img/homeViewHorizontale.png') no-repeat;
   background-size: contain;
   background-position: center bottom;
   width: 631px;
@@ -210,7 +210,7 @@ span {
 }
 
 .titleImg02 {
-  background: url('../img/calendarViewBlackPhone.png') no-repeat;
+  background: url('/img/calendarViewBlackPhone.png') no-repeat;
   background-position: center bottom;
   background-size: contain;
   width: 631px;
@@ -291,7 +291,7 @@ span {
 }
 
 #keepTrackImg01 {
-  background: url('../img/homeViewHorizontalePullOut.png') no-repeat;
+  background: url('/img/homeViewHorizontalePullOut.png') no-repeat;
   background-size: contain;
   margin-left: 50px;
   width: 304px;
@@ -303,7 +303,7 @@ span {
 }
 
 #keepTrackImg02 {
-  background: url('../img/voucherView.png') no-repeat;
+  background: url('/img/voucherView.png') no-repeat;
   background-size: contain;
   position: relative;
   width: 304px;
@@ -314,7 +314,7 @@ span {
 }
 
 #keepTrackImg03 {
-  background: url('../img/timePickerView.png') no-repeat;
+  background: url('/img/timePickerView.png') no-repeat;
   background-size: contain;
   position: relative;
   width: 304px;
@@ -343,7 +343,7 @@ span {
 }
 
 .getPaidImg01 {
-  background: url('../img/loginView.png') no-repeat;
+  background: url('/img/loginView.png') no-repeat;
   background-size: contain;
   width: 631px;
   height: 1084px;
@@ -421,7 +421,7 @@ span {
 }
 
 .iosAppIconLarge {
-  background: url('../img/appStore.png') no-repeat;
+  background: url('/img/appStore.png') no-repeat;
   background-size: contain;
   width: 220px;
   height: 80px;
@@ -429,7 +429,7 @@ span {
 }
 
 .androidAppIconLarge {
-  background: url('../img/gPlay.png') no-repeat;
+  background: url('/img/gPlay.png') no-repeat;
   background-size: contain;
   width: 220px;
   height: 80px;
@@ -488,7 +488,7 @@ span {
   color: #00c0ce !important;
 }
 
-/*--External Pages---------------------------------*/
+/*--PRIVACY PAGE---------------------------------*/
 
 .privacyHeader {
   height: 100px;
