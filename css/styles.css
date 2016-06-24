@@ -1,9 +1,8 @@
-/* --------------------------------------------------------------------------------------
+/* ---------------------
 iWERKT - CSS Style Sheet
 version 1.1
 date: June 13, 2016
 author: TMW 
-----------------------------------------------------------------------------------------
 -----------------------
 /* Background-colors:
 Blue #1399C9
@@ -12,9 +11,9 @@ DarkBlue #114361
 Green #4CC0BD
 LightGreen #80CDC9
 Coral #F56954 
------------------------
 -----------------------*/
 
+/*Keyframes------------------*/
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
@@ -72,7 +71,7 @@ p {
   width: 100%;
   top: 0;
   position: absolute;
-  background: rgb(0, 224, 213); /* Fallback for older browsers without RGBA-support */
+  background: rgb(0, 224, 213);
   background: rgba(0, 224, 213, 0.4);
 }
 
@@ -96,9 +95,9 @@ p {
   font-size: 235px;
   letter-spacing: 8px;
   opacity: 0;
-  -moz-animation: fadein 3s ease-in 0.5s forwards; /* Firefox */
-  -webkit-animation: fadein 3s ease-in 0.5s forwards; /* Safari and Chrome */
-  -o-animation: fadein 3s ease-in 0.5s forwards; /* Opera */
+  -moz-animation: fadein 3s ease-in 0.5s forwards; 
+  -webkit-animation: fadein 3s ease-in 0.5s forwards; 
+  -o-animation: fadein 3s ease-in 0.5s forwards; 
   animation: fadein 3s ease-in 0.5s forwards;
 }
 
@@ -110,9 +109,9 @@ p {
   margin-left: 16px;
   letter-spacing: 3px !important;
   opacity: 0;
-  -moz-animation: fadein 1s ease-in 3s forwards; /* Firefox */
-  -webkit-animation: fadein 1s ease-in 3s forwards; /* Safari and Chrome */
-  -o-animation: fadein 1s ease-in 3s forwards; /* Opera */
+  -moz-animation: fadein 1s ease-in 3s forwards; 
+  -webkit-animation: fadein 1s ease-in 3s forwards; 
+  -o-animation: fadein 1s ease-in 3s forwards;
   animation: fadein 1s ease-in 3s forwards;
 }
 
@@ -152,9 +151,9 @@ span {
   letter-spacing: 3px;
   margin-top: 25px;
   opacity: 0;
-  -moz-animation: fadein 1s ease-in 3s forwards; /* Firefox */
-  -webkit-animation: fadein 1.5s ease-in 3s forwards; /* Safari and Chrome */
-  -o-animation: fadein 1s ease-in 3s forwards; /* Opera */
+  -moz-animation: fadein 1s ease-in 3s forwards; 
+  -webkit-animation: fadein 1.5s ease-in 3s forwards; 
+  -o-animation: fadein 1s ease-in 3s forwards; 
   animation: fadein 1s ease-in 3s forwards;
 }
 
@@ -176,8 +175,6 @@ span {
   font-family: 'Frutiger Std LT';
   letter-spacing: -0.2px;
 }
-
-
 
 .noPaperSection {
   overflow: hidden;
@@ -484,6 +481,14 @@ span {
   text-align: right;
 }
 
+#obf {
+   display: inline-block;
+  font-size: 18px;
+  margin-left: 28px;
+  vertical-align: top;
+  text-align: right;
+}
+
 .footerLink a:hover {
   color: #00c0ce !important;
 }
@@ -496,7 +501,7 @@ span {
   width: 100%;
   position: relative;
   overflow: hidden;
-  background-color: #F56954;
+  background-color: #00C0EF;
   bottom: 0;
 }
 
@@ -517,7 +522,7 @@ span {
 
 .logoSmall a:hover {
   border-top: none !important;
-  color: #00c0ce !important;
+  color: #F56954 !important;
 }
 
 .privacyHeaderRight {
@@ -534,13 +539,13 @@ span {
 .headerLink {
   margin-left: 20px;
   display: inline-block;
-  font-size: 28px;
+  font-size: 18px;
   vertical-align: top;
   text-align: right;
 }
 
 .headerLink a:hover {
-   color: #00c0ce !important;
+   color: #F56954 !important;
 }
 
 .privacySection {
@@ -550,8 +555,7 @@ span {
   padding: 0;
   color: #fefefe;
   height: 1400px;
-  background: rgb(0, 224, 213); /* Fallback for older browsers without RGBA-support */
-  background: rgba(0, 224, 213, 0.6);
+  background-color: #1399C9;
   position: relative;
 }
 
@@ -566,9 +570,23 @@ span {
 #privacySectionTitle {
   opacity: 1;
   margin-top: 80px;
-  text-align: left; 
+  text-align: center; 
   font-size: 45px !important;
   letter-spacing: 4px;
+}
+
+#privacySectionDate {
+  text-align: center;
+  opacity: 1;
+  line-height: 20px; 
+  font-size: 12px;
+  letter-spacing: 2.5px;
+}
+
+hr {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .privacySectionBody {
