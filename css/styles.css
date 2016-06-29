@@ -601,6 +601,114 @@ hr {
 }
 
 
+/*--TERMS PAGE---------------------------------*/
+
+.termsHeader {
+  height: 100px;
+  max-width: 100%;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background-color: #00C0EF;
+  bottom: 0;
+}
+
+.termsHeaderLeft {
+  width: 46%;
+  position: relative;
+  padding-right: 2%;
+  padding-left: 2%;
+  float: left;
+}
+
+.logoSmall {
+  font-size: 36px;
+  text-align: left;
+  margin-top: 30px;
+  letter-spacing: 8px;
+}
+
+.logoSmall a:hover {
+  border-top: none !important;
+  color: #F56954 !important;
+}
+
+.termsHeaderRight {
+  float: right;
+  text-align: right;
+  overflow: hidden; 
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-top: 32px;
+  position: relative;
+  width: 46%;
+}
+
+.headerLink {
+  margin-left: 20px;
+  display: inline-block;
+  font-size: 18px;
+  vertical-align: top;
+  text-align: right;
+}
+
+.headerLink a:hover {
+   color: #F56954 !important;
+}
+
+.termsSection {
+  overflow: hidden;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  color: #fefefe;
+  height: 10500px;
+  background-color: #1399C9;
+  position: relative;
+}
+
+.termsSectionContainer {
+  max-width: 1200px;
+  height: 100%;
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+}
+
+#termsSectionTitle {
+  opacity: 1;
+  margin-top: 80px;
+  text-align: center; 
+  font-size: 45px !important;
+  letter-spacing: 4px;
+}
+
+#termsSectionDate {
+  text-align: center;
+  opacity: 1;
+  line-height: 20px; 
+  font-size: 12px;
+  letter-spacing: 2.5px;
+}
+
+hr {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.termsSectionBody {
+  max-width: 875px;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #ffffff;
+  text-align: justify;
+  margin: auto;
+  margin-top: 50px;
+  opacity: 0.8;
+}
+
+
 
 
 
