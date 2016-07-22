@@ -482,7 +482,7 @@ span {
 }
 
 #obf {
-   display: inline-block;
+  display: inline-block;
   font-size: 18px;
   margin-left: 28px;
   vertical-align: top;
@@ -491,6 +491,10 @@ span {
 
 .footerLink a:hover {
   color: #00c0ce !important;
+}
+
+.footerLink a.activePage {
+  color: #00BC5B !important;
 }
 
 /*--PRIVACY PAGE---------------------------------*/
@@ -689,6 +693,7 @@ hr {
   line-height: 20px; 
   font-size: 12px;
   letter-spacing: 2.5px;
+  background-color: #1399C9 !important;
 }
 
 hr {
@@ -707,6 +712,123 @@ hr {
   margin-top: 50px;
   opacity: 0.8;
 }
+
+
+  /*-----------------FAQ-----------------------*/
+
+.homeLogo {
+  font-size: 36px;
+  text-align: left;
+  letter-spacing: 3px;
+  background-color: #F56954;
+  padding: 2% 0 0 2%;
+}
+
+.homeLogo a:hover {
+  color: #00c0ef !important;
+}
+
+.faq {
+  overflow: hidden;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  color: #fefefe;
+  background-color: #45C0BE;
+  position: relative;
+}
+
+.faqContainer {
+  max-width: 100vw;
+  margin: 0 auto;
+  position: relative;
+}
+
+#faqTitle {
+  opacity: 1;
+  width: 100vw;
+  height: 8vh;
+  padding-top: .5%;
+  text-align: center; 
+  font-size: 50px !important;
+  letter-spacing: 4px;
+  background-color: #F56954;
+}
+
+.faqSubtitleText {
+  width: 100vw;
+  background-color: #F56954;
+  text-align: center;
+  font-size: 22px;
+  letter-spacing: 2.5px;
+  margin-top: 0;
+  height: 6vh;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.faqCatBox {
+  float: left;
+  margin: 0 0 1% 1%;
+  overflow: hidden;
+  position: relative;
+  width: 23.7vw;
+  height: 30vh;
+  background: #fff;
+}
+
+#faqCatBox:hover {
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+#faqCat {
+  color: #00c0ef;
+  margin: 33% auto;
+  font-size: 25px;
+  opacity: 1;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  line-height: 2%;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+#faqCat:hover {
+  color: #F56954;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+.moreHelp {
+  width: 100vw;
+  height: 9vh;
+  text-align: center;
+  background-color: #45C0BE;
+  float: left;
+  line-height: 1vh;
+  margin-top: -.5%;
+}
+
+.moreHelp p {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+
+
+
+
+
+
 
 
 
