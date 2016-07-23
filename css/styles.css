@@ -95,10 +95,10 @@ p {
   font-size: 235px;
   letter-spacing: 8px;
   opacity: 0;
-  -moz-animation: fadein 3s ease-in 0.5s forwards; 
-  -webkit-animation: fadein 3s ease-in 0.5s forwards; 
-  -o-animation: fadein 3s ease-in 0.5s forwards; 
-  animation: fadein 3s ease-in 0.5s forwards;
+  -moz-animation: fadein 2.25s ease-in 1.25s forwards; 
+  -webkit-animation: fadein 2.25s ease-in 1.25s forwards; 
+  -o-animation: fadein 2.25s ease-in 1.25s forwards; 
+  animation: fadein 2.25s ease-in 1.25s forwards;
 }
 
 .logoBody {
@@ -109,10 +109,10 @@ p {
   margin-left: 16px;
   letter-spacing: 3px !important;
   opacity: 0;
-  -moz-animation: fadein 1s ease-in 3s forwards; 
-  -webkit-animation: fadein 1s ease-in 3s forwards; 
-  -o-animation: fadein 1s ease-in 3s forwards;
-  animation: fadein 1s ease-in 3s forwards;
+  -moz-animation: fadein .5s ease-in 3s forwards; 
+  -webkit-animation: fadein .5s ease-in 3s forwards; 
+  -o-animation: fadein .5s ease-in 3s forwards;
+  animation: fadein .5s ease-in 3s forwards;
 }
 
 a {
@@ -747,23 +747,13 @@ hr {
 #faqTitle {
   opacity: 1;
   width: 100vw;
-  height: 8vh;
+  height: 12vh;
+  margin-bottom: 1%;
   padding-top: .5%;
   text-align: center; 
   font-size: 50px !important;
   letter-spacing: 4px;
   background-color: #F56954;
-}
-
-.faqSubtitleText {
-  width: 100vw;
-  background-color: #F56954;
-  text-align: center;
-  font-size: 22px;
-  letter-spacing: 2.5px;
-  margin-top: 0;
-  height: 6vh;
-  color: rgba(255, 255, 255, 0.6);
 }
 
 .faqCatBox {
